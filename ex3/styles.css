@@ -1,0 +1,50 @@
+body{
+    font-family: Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 50px;
+    background-color: #978f8f;
+    font-weight: bold;
+}
+div{
+   
+    display: flex;
+
+    
+}
+#add{
+    color: rgb(247, 247, 250);
+    background-color: rgb(105, 105, 228);
+    padding: 20px ;
+    align-items: center;
+    width: 110px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+input{
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center;
+}
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}

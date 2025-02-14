@@ -1,0 +1,15 @@
+
+li{
+    padding: 20px;
+    font-style: italic;
+    color: rgb(42, 42, 73);
+    font-size: 50px;
+    font-family: Georgia, serif;
+}
+
+div{
+    background-color: rgb(253, 244, 244);
+    border: 2px solid rgb(42, 42, 73);
+    border-radius: 20px;
+    text-align: center;
+}
