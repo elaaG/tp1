@@ -58,4 +58,7 @@ function game() {
     }
 }
 
-game();
+document.getElementById("start").addEventListener("click", function() {
+    document.getElementById("game-area").style.display = "block";
+    game(); 
+});
